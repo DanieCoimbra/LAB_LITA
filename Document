@@ -1,4 +1,6 @@
 import.:
 npm install react-icons --save
 
+npm install --save react-calendly
+
 npm i swiper

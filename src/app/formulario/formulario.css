@@ -1,0 +1,183 @@
+.fundof{
+    width: 100%;
+    height: 200vh;
+    background: url('/bg_form.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .fcontainer {
+    width: 850px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: rgba(74, 74, 74, 0.55);
+    backdrop-filter: blur(20px);
+    margin-bottom: 100px;
+    }
+  
+  .text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: '600';
+    line-height: 35px;
+    padding-top: 50px;
+    text-align: start;
+    margin-left: 20px;
+    margin-top: 150px;
+  }  
+  
+  .fcontainer1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 150px;
+  }
+  .fcard1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 395px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur(17.5px);
+    margin-right: 25px;
+    margin-top: 100px;
+  }
+  
+  .card1{
+    width: 325px;
+    height: 325px;
+    flex-shrink: 0;
+    border-radius: 31.328px;
+    background: rgba(255, 255, 255, 0.60);
+    backdrop-filter: blur(13.705883026123047px);
+  }
+  
+  .card1 h1{
+    color: #404040;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110px; 
+    letter-spacing: -2.005px;
+    text-align: start;
+    margin-left: 30px;
+  }
+  
+  .card1 p{
+    color: #404040;
+    font-family: 'Inter', sans-serif;;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -2.005px;
+    text-align: start;
+    margin-left: 30px;
+  }
+  
+  .projbutton{
+    width: 248px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #000000;
+    margin-top:50px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -2.005px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .fcard2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 395px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: rgba(143, 143, 143, 0.60);
+    backdrop-filter: blur(17.5px);
+    margin-top: 100px;
+  }
+  
+  .card2{
+    width: 325px;
+    height: 325px;
+    flex-shrink: 0;
+    border-radius: 31.328px;
+    background: rgba(143, 143, 143, 0.60);
+    backdrop-filter: blur(13.705883026123047px);
+  }
+  
+  .card2 h1{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110px; /* 44.103px */
+    letter-spacing: -2.005px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  
+  .card2 p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -2.005px;
+    text-align: start;
+    margin-left: 10px;
+  }
+  
+  .vonbutton{
+    width: 248px;
+    height: 65px;
+    border-radius: 15px;
+    background: #ffffff;
+    margin-top: 20px;
+    color: #000000;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -2.005px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .vonbutton:hover {
+    background: #ffffff;
+    transform: scale(1.05);
+  }
+  
+  .projbutton:hover {
+    background: #000000;
+    transform: scale(1.05);
+  }

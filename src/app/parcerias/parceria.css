@@ -1,0 +1,100 @@
+.parc-container {
+    width: 100%;
+    height: 180vh;
+    background: url('/bg_parcerias.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    }
+    
+  .parc-text{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 170%; 
+    letter-spacing: -2.5px;
+    text-align:start;
+    padding-bottom: 150px;
+    padding-top: 100px;
+  }
+  
+  .pcard1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 475px;
+    height: 475px;
+    flex-shrink: 0;
+    border-radius: 60.455px;
+    background: rgba(143, 143, 143, 0.60);
+    backdrop-filter: blur(26.449134826660156px);
+    margin-top: 180px;
+  }
+  
+  .pcard2{
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 47.348px;
+    background: rgba(143, 143, 143, 0.60);
+    backdrop-filter: blur(20.714784622192383px); 
+  }
+  
+  .pcard2 h1{
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -3.03px;
+    text-align:start;
+    padding-left: 20px;
+    padding-top: 15%;
+  }
+  
+  .pcard2 p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: -3.03px;
+    text-align:start;
+    padding-left: 20px;
+  }
+  
+  .parccard{
+    padding-top: 100px;
+  }
+  
+  .parcbutton{
+    width: 248px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 22.671px;
+    background: #DADB7E;
+    color: #5F5956;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 110%; /* 66.656px */
+    letter-spacing: -3.03px; 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+  }
+  
+  .parcbutton:hover {
+    background: #DADB7E;
+    transform: scale(1.05);
+  }

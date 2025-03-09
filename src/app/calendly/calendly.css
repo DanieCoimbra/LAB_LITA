@@ -1,0 +1,13 @@
+/* CalendlyPage.css */
+.ccontainer{
+    width: 100%;
+    height: 100vh;
+    background: url('/bg_calendario.png') no-repeat center center;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-attachment: fixed; /* Fixa a imagem no fundo */
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
