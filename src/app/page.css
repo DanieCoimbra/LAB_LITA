@@ -1,0 +1,60 @@
+.fundo {
+    width: 100%;
+    height: 100vh;
+    background: url('/bg_home.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    position: relative;
+  }
+  
+  .nome{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 110px;
+    word-wrap: break-word;
+    padding-top: 150px;
+    margin-right: 50%;
+  }
+  
+  .home{
+    margin-bottom: 100px;
+    padding-top: 20%;
+    margin-right: 50%;
+    text-align: start;
+  }
+  
+  .home h2{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.336px;
+  }
+  
+  .home p{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 90px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 80px; /* 110px */
+    letter-spacing: -5px;
+  }
+  
+  .wave-line {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 550px; 
+    height: auto;
+    opacity: 0.8;
+  }
+  

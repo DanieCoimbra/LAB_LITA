@@ -1,0 +1,76 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 15px 40px; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    border-radius: 0px 0px 50px 50px;
+    background: rgba(64, 64, 64, 0.85);
+    backdrop-filter: blur(5px);
+  }
+  
+  .left-space {
+    flex: 0.1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 110%; /* 44.103px */
+    letter-spacing: -2.005px;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9900;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #ff9900;
+  }
+  
+  
+  /* Estilos dos ícones */
+  .social-icons a {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: lightgray;
+  }
+  
+  /* Evita que o navbar sobreponha o conteúdo */
+  body {
+    padding-top: 0px;
+  }

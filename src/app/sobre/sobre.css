@@ -1,0 +1,67 @@
+.fundo1{
+    width: 100%;
+    height: 200vh;
+    background: url('/bg_sobre.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.brain{
+    align-items: center;
+    position: absolute;
+    right: 45%;
+    top: 90px;
+    width: 150px; /* Ajuste conforme necessário */
+    height: auto;
+    opacity: 0.8;
+  }
+.base1{
+    
+    max-width: 60%;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: '600';
+    line-height: 25px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    margin-top: 350px;
+    text-align: start;
+}
+
+.base2{
+    max-width: 60%;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: '600';
+    line-height: 25px;
+    word-wrap: break-word;
+    margin-bottom: 150px;
+    text-align: start;
+}
+
+.base3{
+    max-width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: '600';
+    line-height: 59.28px;
+    word-wrap: break-word;
+    margin-bottom: 550px;
+}
+
+.group{
+    position: absolute;
+    right: 30%;
+    top: 900px;
+    width: 500px; /* Ajuste conforme necessário */
+    height: auto;
+    opacity: 0.8;
+}
