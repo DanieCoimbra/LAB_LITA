@@ -26,8 +26,8 @@ export default function Projetos() {
       <Image
         src="/system.png"
         alt="System"
-        width={300}
-        height={200}
+        width={150}
+        height={100}
         className='system'
         priority
       />
@@ -53,7 +53,6 @@ export default function Projetos() {
                     height={300}
                     className='project-image'
                   />
-                  <h3>{item.alt}</h3>
                 </div>
               </SwiperSlide>
             ))}
@@ -77,7 +76,6 @@ export default function Projetos() {
                     height={300}
                     className='project-image'
                   />
-                  <h3>{item.alt}</h3>
                 </div>
               </SwiperSlide>
             ))}
