@@ -13,6 +13,7 @@ export default function Home() {
           alt="Wave Line" 
           width={500} 
           height={100} 
+          priority 
           className="wave-line"
         />
       </div>         

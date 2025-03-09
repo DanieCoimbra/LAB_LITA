@@ -3,7 +3,7 @@ import Navbar from "./components/navbar";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Meu Site",
+  title: "Laboratório Lita",
   description: "Um site criado com Next.js 14",
 };
 

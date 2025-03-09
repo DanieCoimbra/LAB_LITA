@@ -1,60 +1,154 @@
 .fundo {
-    width: 100%;
-    height: 100vh;
-    background: url('/bg_home.png') no-repeat center center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url('/bg_home.png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+/* Ajusta o tamanho do texto e o alinhamento */
+.nome {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 110px;
+  word-wrap: break-word;
+  padding-top: 170px;
+  margin-right: 50%;
+}
+
+/* Ajusta a seção home */
+.home {
+  margin-bottom: 100px;
+  padding-top: 20%;
+  margin-right: 50%;
+  text-align: start;
+}
+
+.home h2 {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.336px;
+}
+
+.home p {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 80px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: -5px;
+}
+
+/* Ajusta a imagem wave-line */
+.wave-line {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 550px; 
+  height: auto;
+  opacity: 0.8;
+}
+
+.wave-line {
+  display: block; /* Mostra normalmente */
+
+  /* Esconde em telas menores que 768px */
+  @media (max-width: 1045px) {
+    display: none;
   }
-  
-  .nome{
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 110px;
-    word-wrap: break-word;
-    padding-top: 150px;
-    margin-right: 50%;
+}
+/* Media Query para telas menores que 1024px */
+@media (max-width: 1045px) {
+  .nome {
+      font-size: 80px;
+      line-height: 90px;
+      margin-right: 20%;
   }
-  
-  .home{
-    margin-bottom: 100px;
-    padding-top: 20%;
-    margin-right: 50%;
-    text-align: start;
+
+  .home {
+      padding-top: 15%;
+      margin-right: 20%;
   }
-  
-  .home h2{
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 133.333% */
-    letter-spacing: -0.336px;
+
+  .home p {
+      font-size: 70px;
+      line-height: 70px;
+      letter-spacing: -3px;
   }
-  
-  .home p{
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 90px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 80px; /* 110px */
-    letter-spacing: -5px;
-  }
-  
+
   .wave-line {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 550px; 
-    height: auto;
-    opacity: 0.8;
+      width: 400px;
   }
+}
+
+/* Media Query para telas menores que 768px (tablets e celulares) */
+@media (max-width: 768px) {
+  .nome {
+      font-size: 60px;
+      line-height: 70px;
+      margin-right: 0;
+      text-align: center;
+      padding-top: 100px;
+  }
+
+  .home {
+      padding-top: 10%;
+      margin-right: 0;
+      text-align: center;
+  }
+
+  .home h2 {
+      font-size: 20px;
+  }
+
+  .home p {
+      font-size: 50px;
+      line-height: 60px;
+      letter-spacing: -2px;
+  }
+
+  .wave-line {
+      width: 300px;
+  }
+}
+
+/* Media Query para telas menores que 480px (celulares pequenos) */
+@media (max-width: 480px) {
+  .nome {
+      font-size: 40px;
+      line-height: 50px;
+      padding-top: 80px;
+  }
+
+  .home {
+      padding-top: 5%;
+  }
+
+  .home h2 {
+      font-size: 18px;
+  }
+
+  .home p {
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -1px;
+  }
+
+  .wave-line {
+      width: 200px;
+  }
+}
+
   
