@@ -191,8 +191,8 @@ margin-left: 50px;
     background: #ffffff;
     color: #000000;
     font-family: Inter;
-    font-size: 28px;
-    font-style:normal;
+    font-size: 22px;
+    font-style: normal;
     font-weight: 600;
     line-height: 110%; /* 66.656px */
     letter-spacing: -1.4px; 
@@ -200,6 +200,6 @@ margin-left: 50px;
     transition: all 0.3s ease-in-out; 
   }
   
-  .parcbutton:hover {
+  .parcbutton: hover {
     transform: scale(1.05);
   }
