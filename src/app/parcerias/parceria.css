@@ -1,7 +1,7 @@
-.imgnupra{
+.imgnupra {
   width: 800px;
   height: 100vh;
-  background  : url('/bg_parceria.png') ;
+  background: url('/bg_parceria.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,53 +17,26 @@
   margin-right: 170%;
 }
 
-  .parc-text{
-    color: #FFF;
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 110%; 
-    letter-spacing: -1.4px;
-    text-align: justify;
-    padding-top: 60px;
-    margin-left: 2%;
-    padding-bottom: 40px;
-  } 
-.beneficio{
+.parc-text {
+  color: #FFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -1.4px;
+  text-align: justify;
+  padding-top: 60px;
+  margin-left: 2%;
+  padding-bottom: 40px;
+}
+
+.beneficio {
   width: 400px;
   height: 300px;
 }
-  .bn1{
-    width: 100%;
-    position: relative;
-    height: 25px;
-    text-align: left;
-    font-size: 18px;
-    color: #fff;
-    font-family: Inter;
-  }
-.top1{
-letter-spacing: -0.05em;
-line-height: 110%;
-font-weight: 500;
-display: flex;
-align-items: center;
-width: 353px;
-margin-left: 50px;
-}
-.top1 h1{
-margin-left: 50px
-}
-.teste{
-  position: absolute;
-  top: 1px;
-  left: 0px;
-  width: 27px;
-  height: 27px;
-  margin-left: 50px;
-}
-.bn2{
+
+.bn1, .bn2, .bn3, .bn4 {
   width: 100%;
   position: relative;
   height: 25px;
@@ -72,137 +45,73 @@ margin-left: 50px
   color: #fff;
   font-family: Inter;
 }
-.top2{
-  position: absolute;
-  top: calc(50% - 14px);
-  left: calc(50% - 152px);
+
+.top1, .top2, .top3, .top4 {
   letter-spacing: -0.05em;
   line-height: 110%;
   font-weight: 500;
   display: flex;
   align-items: center;
-  width: 337px;
-  }
-  .top2 h1{
-    margin-left: 50px;
-  }
-  .acessoicon{
-    position: absolute;
-    top: 1px;
-    left: 0px;
-    width: 27px;
-    height: 27px;
-  }
-  .bn3{
-    width: 100%;
-    position: relative;
-    height: 25px;
-    text-align: left;
-    font-size: 18px;
-    color: #fff;
-    font-family: Inter;
-  }
-  .top3{
-    position: absolute;
-    top: calc(160% - 14px);
-    left: calc(50% - 152px);
-    letter-spacing: -0.05em;
-    line-height: 110%;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    width: 337px;
-    }
-    .top3 h1{
-      margin-left: 50px;
-    }
-    .radial{
-      position: absolute;
-      top: 1px;
-      left: 0px;
-      width: 27px;
-      height: 27px;
-    }
-
-    .bn4{
-      width: 100%;
-      position: relative;
-      height: 25px;
-      text-align: left;
-      font-size: 18px;
-      color: #fff;
-      font-family: Inter;
-    }
-    .top4{
-      position: absolute;
-      top: calc(160% - 14px);
-      left: calc(50% - 152px);
-      letter-spacing: -0.05em;
-      line-height: 110%;
-      font-weight: 500;
-      display: flex;
-      align-items: center;
-      width: 337px;
-      }
-      .top4 h1{
-        margin-left: 50px;
-      }
-      .brainai{
-        position: absolute;
-        top: 1px;
-        left: 0px;
-        width: 27px;
-        height: 27px;
-      }
-  
-
-.pcard1 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    height: 150px;
-    flex-shrink: 0;
-    border-radius: 20.455px;
-    background: rgba(143, 143, 143, 0.60);
-    backdrop-filter: blur(26.449134826660156px);
-    margin-top: 80px; 
-    margin-left: 10%;
+  width: 353px;
+  margin-left: 50px;
 }
 
-  .textcard{
-    color: #FFF;
-    text-align: center;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 110%; /* 33px */
-    letter-spacing: -1.5px;
-    padding-top: 0px;
-  }
-  .parccard{
-    padding-top: 30px;
-    }
-  
+.teste, .acessoicon, .radial, .brainai {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  width: 27px;
+  height: 27px;
+}
+
+.pcard1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 150px;
+  flex-shrink: 0;
+  border-radius: 20.455px;
+  background: rgba(143, 143, 143, 0.60);
+  backdrop-filter: blur(26.449134826660156px);
+  margin-top: 30px; /* Ajustado para mover o botão para cima */
+  margin-left: 10%;
+}
+
+.textcard {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -1.5px;
+  padding-top: 0px;
+}
+
+.parccard {
+  padding-top: 20px;
+}
+
 .parcbutton {
-    width: 250px; /
-    height: 40px; 
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #ffffff;
-    color: #000000;
-    font-family: Inter;
-    font-size: 24px; 
-    font-style: normal;
-    font-weight: 600;
-    line-height: 110%; 
-    letter-spacing: -1.4px; 
-    cursor: pointer;
-    transition: all 0.3s ease-in-out; 
+  width: 200px; /* Reduzido para um tamanho menor */
+  height: 40px; /* Reduzido para um tamanho menor */
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ffffff;
+  color: #000000;
+  font-family: Inter;
+  font-size: 20px; /* Reduzido para um tamanho menor */
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -1.4px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .parcbutton:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
