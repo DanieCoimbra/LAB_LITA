@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Parcerias() {
   return (
-    <section>
+    <section className="parceria-container">
       <div className="imgnupra">
         <div className="parc-container">
           <div className="parc-text">
@@ -11,32 +11,30 @@ export default function Parcerias() {
             <h1>único para transformar sua marca e explorar</h1>
             <h1>novas possibilidades.</h1>
           </div>
-
+          
           <div className="beneficio">
-            <div className="bn">
-              <Image className="icon" width={27} height={27} alt="" src="teste.svg" />
+            <div className="beneficio-item">
+              <Image width={27} height={27} alt="Teste" src="teste.svg" />
               <h1>Ambiente de testes controlados</h1>
             </div>
-            <div className="bn">
-              <Image className="icon" width={27} height={27} alt="" src="user centered.svg" />
+            <div className="beneficio-item">
+              <Image width={27} height={27} alt="Acesso a talentos" src="user-centered.svg" />
               <h1>Acesso a talentos inovadores</h1>
             </div>
-            <div className="bn">
-              <Image className="icon" width={27} height={27} alt="" src="radial.svg" />
+            <div className="beneficio-item">
+              <Image width={27} height={27} alt="Marca" src="radial.svg" />
               <h1>Fortalecimento da marca</h1>
             </div>
-            <div className="bn">
-              <Image className="icon" width={27} height={27} alt="" src="brain AI.svg" />
+            <div className="beneficio-item">
+              <Image width={27} height={27} alt="Inovação" src="brainAI.svg" />
               <h1>Inovação contínua</h1>
             </div>
           </div>
 
           <div className="pcard1">
             <div className="textcard">
-              <h1>Tenho interesse em me tornar </h1>
-              <h1>parceiro do LITA.</h1>
+              <h1>Tenho interesse em me tornar parceiro do LITA.</h1> 
             </div>
-
             <div className="parccard">
               <a href="https://forms.office.com/r/4JZaURjzgp" target="_blank">
                 <button className="parcbutton">Quero ser parceiro agora</button>
