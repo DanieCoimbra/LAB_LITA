@@ -30,7 +30,7 @@
     margin-left: 2%;
     padding-bottom: 80px;
   } 
-.benficio{
+.beneficio{
   width: 400px;
   height: 300px;
 }
@@ -68,13 +68,13 @@ margin-left: 50px;
   position: relative;
   height: 28px;
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   font-family: Inter;
 }
 .top2{
   position: absolute;
-  top: calc(45% - 14px);
+  top: calc(50% - 14px);
   left: calc(50% - 152px);
   letter-spacing: -0.05em;
   line-height: 110%;
