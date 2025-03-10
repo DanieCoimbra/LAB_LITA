@@ -156,7 +156,7 @@ margin-left: 50px
       }
   
 
-  .pcard1{
+.pcard1 {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -167,9 +167,9 @@ margin-left: 50px
     border-radius: 20.455px;
     background: rgba(143, 143, 143, 0.60);
     backdrop-filter: blur(26.449134826660156px);
-    margin-top: 100px;
+    margin-top: 50px; 
     margin-left: 10%;
-  }
+}
 
   .textcard{
     color: #FFF;
@@ -186,23 +186,23 @@ margin-left: 50px
     padding-top: 20px;
     }
   
-  .parcbutton{
-    width: 270px;
-    height: 45px;
+.parcbutton {
+    width: 250px; /
+    height: 40px; 
     flex-shrink: 0;
     border-radius: 8px;
     background: #ffffff;
     color: #000000;
     font-family: Inter;
-    font-size: 28px;
+    font-size: 24px; 
     font-style: normal;
     font-weight: 600;
-    line-height: 110%; /* 66.656px */
+    line-height: 110%; 
     letter-spacing: -1.4px; 
     cursor: pointer;
     transition: all 0.3s ease-in-out; 
-  }
-  
-  .parcbutton: hover {
+}
+
+.parcbutton:hover {
     transform: scale(1.05);
-  }
+}
