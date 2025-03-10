@@ -74,7 +74,7 @@ margin-left: 50px;
 }
 .top2{
   position: absolute;
-  top: calc(50% - 14px);
+  top: calc(45% - 14px);
   left: calc(50% - 152px);
   letter-spacing: -0.05em;
   line-height: 110%;
